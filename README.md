@@ -1,4 +1,4 @@
-# GLADOS-VoiceAssistent
+# GLADOS-VoiceAssistant
 
 Hello! This is a voice assistant copying GLADOS written in Python🐍.
 
