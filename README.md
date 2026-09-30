@@ -1,37 +1,28 @@
 # GLADOS-VoiceAssistant
 
-<h2> Now Version 1.0 </h2>
+<h2> Версия 2.0 </h2>
 
-Hello! This is a voice assistant copying GLADOS written in Python🐍.
+Привет! Это голосовой помощник, имитирующий GLaDOS. 
 
-To work with the assistant, you will need libraries:
-<ul>
-<li> Numba - https://pypi.org/project/numba/ </li>
-<li> Pyttsx3 - https://pypi.org/project/pyttsx3/ </li>
-<li> Speech Recognition - https://pypi.org/project/SpeechRecognition/ </li>
-<li> Datetime </li>
-<li> Random </li>
-<li> Os </li>
-<li> Webbrowser </li>
-<li> Tkinter </li>
-</ul>
+Этот голосовой помошник работает на основе DeepSeek. 
 
-<div>
-  <h3>Versions:</h3>
-  <div>
-    <h4>Version 1.0:</h4>
-    <p style="margin-left 10px;"> GLADOS can:
-      <ul>
-      <li> Speak the date </li>
-      <li> Joke </il>
-      <li> Play music </li>
-      <li> Speak the time </li>
-      <li> Turn off computer </li>
-      </ul>
-      Have UI on Tkinter <br>
-      Settings <br>
-      Main menu <br>
-      Voice GLADOS written in pyttsx3
-      </p>
-  </div>
-</div>
+Интерфейс был написан с помощью библиотеки eel в и запускается через Google Chrome.
+
+Имеется отдельное меню, где можно посмотреть команды. В файле systemData можно задавать свои фразы под команды.
+
+Есть своя система настроек, в которых можно менять тип ввода информации (текстом или голосом), а также внешний вид программы и список файлов из папки addContent.
+
+<h3>Необходимые библеотеки:</h3>
+<p>ell, fuzzywuzzy, pyttsx3, openai, pygame</p>
+
+<h3>Функционал программы:</h3>
+Говорить текщее время и дату. <br>
+Включать и переключать музыку. <br>
+Запускать программы и игры - команда "запусти" и название программы. <br>
+Поиск информации через поисковик - команда "найди" и ваш запрос.
+Открытие определённого сайта - команда "открой" и название сайта.
+
+<h3>Папка addContent</h3>
+Можно запускать свою музыку: нужно создать папку "music" и загружать туда нужные вам песни. Точно также можно запустить игры или программы: создаете папку "games" и переносите ярлыки ваших программ. <br>
+<br>
+В файле sites.txt можно задавать сайты, которые ассистент будет запускать по вашей команде: пишите в квадратных скобочках название сайта, которое вы будете называть (можно несколько) и ссылку на этот сайт.
